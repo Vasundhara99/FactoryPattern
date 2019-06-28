@@ -1,6 +1,5 @@
 package com.app.AdapterPattern;
 
-import com.app.AdapterPattern.AdvancedMediaPlayer;
 
 public class Mp4Player implements AdvancedMediaPlayer {
 

@@ -2,11 +2,11 @@ package com.app.SingleTonPattern;
 
 public class SingleInstance {
     private static SingleInstance instance = new SingleInstance();
-    private SingleInstance(){}
+    protected SingleInstance(){}
     public static SingleInstance getInstance(){
         return instance;
     }
-    public void showMessage(){
+    protected void showMessage(){
         System.out.println("Hello World!");
     }
 }
